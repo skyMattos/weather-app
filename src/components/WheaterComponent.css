@@ -1,0 +1,46 @@
+.container{
+    background-color: #fff;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    padding:1em
+}
+.city-name{
+    display: flex;
+    flex-direction: row;
+}
+
+.city-name h2{
+    font-size: 1.5em;
+}
+.city-name sup{
+    padding:5px 10px;
+    border-radius: 30px;
+    color:#fff;
+    background: #ff8c00;
+}
+
+.city-temp{
+    margin-top: 10px;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.city-icon{
+    margin-top: 2em;
+}
+
+i {
+    font-size: 50px;
+    color:#53627c;
+}
+
+.city-weather{
+    margin-top: 2em;
+}
+
+.city-weather h4{
+    letter-spacing: 0.5em;
+    color:#53627c;
+    text-transform: uppercase;
+}
